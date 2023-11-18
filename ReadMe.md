@@ -34,5 +34,9 @@ IMAGE_PATH: Path to the image to be segmented \
 THRESHOLD: Threshold value for the rough density segmentation. Defaults to 70 if not provided.\
 The function returns a numpy array containing the segmented image.\
 
+## Miscellaneous
+The folder [SampleData](SampleData) contains some sample X-Ray images of human lungs used for testing the code.
+
+
 
 
