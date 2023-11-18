@@ -13,15 +13,19 @@ This repository contains the  implementation of the method described in the pape
 >**Note:** Detailed version information can be found in the [requirements.txt](requirements.txt) file.
 
 ## Usage
-### 1. Clone the repository
-### 2. Install the requirements
+
 ```bash
+# Clone the repository
+git clone https://github.com/BhaskarS1ngha/RDS.git
+cd RDS
+
+# 2. Install the requirements
 pip install -r requirements.txt
-```
-### 3. Run the code
-```bash
+
+# 3. Run the code
+
 python rough_density_segmentation.py <path_to_image> <threshold>
-#Threshold is optional and defaults to 70
+# Threshold is optional and defaults to 70
 ```
 
 ## Integrating with your code
