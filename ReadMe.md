@@ -30,9 +30,10 @@ python rough_density_segmentation.py <path_to_image> <threshold>
 
 ## Integrating with your code
 The file [rough_density_segmentation.py](rough_density_segmentation.py) contains the function 'cluster' which can be used to segment an image. The function takes two arguments: \
-IMAGE_PATH: Path to the image to be segmented \
-THRESHOLD: Threshold value for the rough density segmentation. Defaults to 70 if not provided.\
-The function returns a numpy array containing the segmented image.\
+>IMAGE_PATH: Path to the image to be segmented \
+>THRESHOLD: Threshold value for the rough density segmentation. Defaults to 70 if not provided.
+> 
+The function returns a numpy array containing the segmented image.
 
 ## Miscellaneous
 The folder [SampleData](SampleData) contains some sample X-Ray images of human lungs used for testing the code.
